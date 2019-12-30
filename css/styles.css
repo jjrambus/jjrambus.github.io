@@ -1,0 +1,49 @@
+a{
+  background-color: #EAF6F6;
+  color: #ED8240;
+}
+.visited{
+  color: #ED8240;
+}
+
+body {
+  background-color: #EAF6F6;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  width: 5%;
+  border-color: grey;
+  border-width: 5px;
+}
+h1 {
+  color: #ED8240;
+}
+
+h2{
+  color: #ED8240;
+}
+
+h3{
+  color: #ED8240;
+}
+
+#heading{
+  color: green;
+}
+
+img{
+  border-radius: 100%;
+}
+img:hover{
+  filter: blur(3px) ; /* Chrome, Safari, Opera */
+}
+
+.UdemyLink{
+  color : blue;
+}
+
+.UdemyLink:visited{
+  color: blue;
+}
