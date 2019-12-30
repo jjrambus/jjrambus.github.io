@@ -1,161 +1,63 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
-
+<html>
 
 <head>
   <meta charset="utf-8">
-  <meta author="Joshua Rambus">
-  <title>Josh Rambus' Personal Site</title>
+  <title>Joshua Rambus</title>
   <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+  <link rel="icon" href="favicon.ico">
 </head>
 
 <body>
-  <table>
-    <tr>
-      <td>
-        <img height="350" width="290" src="images/ProfilePicture.jpg" alt="Joshua
-         Rambus profile picture">
-      </td>
-      <td>
-        <h1>Joshua Rambus</h1>
-        <h2 id="title"><strong> Auburn University Student</strong></h2>
-        <h3><strong>Computer Science/Management of Information Systems</strong></h3>
-        <!-- <p id="intro">Hello my name is Joshua Rambus and I am a student at Auburn
-          University studying Management of Information Systems and Computer Science.
-          I am passionate about Full-Stack Web Development and Mobile Application
-          Development. I have several online course certifications for both mobile
-          and web development that include: iOS development using Swift,
-          React-Native, Angular, HTML, CSS, JavaScript and much more that can be
-          found on my <a href="http://jjrambus.github.io/images/resume.pdf">
-            <strong>resumé</strong></a>! I also used these skills to develop this
-          website completely from scratch to showcase several projects that I have
-          worked on both pn my own and during my time at Auburn. I also have
-          experience developing in a professional environment. Below are just a
-          few projects that I have built myself!
-          </a>
-        </p> -->
-      </td>
-    </tr>
-  </table>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud">
+    <div class="title-text">
+      <h1>Joshua Rambus</h1>
+      <h2>Aspiring Programmer</h2>
+    </div>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud">
+    <img class="mountain" src="images/mountain.png" alt="mountain-img">
+  </div>
 
-  <hr>
-  <h3>Online Coursework</h3>
-  <ul id = "UdemyCertifications">
-    <li><a class="UdemyLink" href="https://www.udemy.com/course/ios-13-app-development-bootcamp/">
-        Udemy: iOS 13 & Swift 5 - The Complete iOS App Development Bootcamp
-      </a>
-    </li>
+  <div class="middle-container">
+    <div class="profile">
+      <img id = "ProfilePicture" src="images/ProfilePicture.jpg" alt="Picture of Joshua Rambus">
+      <h2>Hello.</h2>
+      <p class="intro">I am an iOS and Web Developer. I'm the founder and CTO of The App Brewery. I ❤️ coffee and brew my own beers.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="code-img" src="https://media.giphy.com/media/3p50WGyUqeU5W/giphy.gif" alt="code-img">
 
-    <li><a class="UdemyLink" href="https://www.udemy.com/course/the-complete-react-native-and-redux-course/">
-        Udemy: Complete React-Native + Hooks Course [2019 edition]
-      </a>
-    </li>
+        <h3>Design & Development</h3>
+        <p>I started learning to code when I was 12 years old because I wanted to make my own video games. Over time, I have gained a wealth of experience designing and developing mobile and web applications.</p>
 
-    <li><a class="UdemyLink" href="https://www.udemy.com/course/angular-4-front-to-back/">
-        Udemy: Angular Front to Back course</a></li>
-    <li><a class = "UdemyLink" href="https://www.udemy.com/course/flutter-bootcamp-with-dart/">
-        Udemy: Complete Flutter App Development Bootcamp with Dart
-      </a>
+      </div>
+      <div class="skill-row">
+        <img class="chilli-img" src="images/school.gif" alt="chillies-img">
 
-    </li>
-    <li><a class="UdemyLink" href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">
-        The Complete 2020 Web Development Bootcamp
-      </a>
-    </li>
-  </ul>
-  <hr>
+        <h3>Hot Wings Challenge</h3>
+        <p>But my best skill is actually in eating hot wings. I am the undisputed queen of hot wing challenges. Ghost Peppers and Carolina Reapers are my favourite snacks.</p>
 
-  <h3>Work Experience</h3>
-  <table>
-    <thead>
-      <th>Dates</th>
-      <th>Work</th>
-    </thead>
-    <tbody>
-      <tr>
-        <td>June 2019 - August 2019</td>
-        <td>Summer Games Intern</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you love hot wings as much as I do.</h3>
+      <p class="contact-message">Love hot wings as much as I do? Let's talk about how awesome they are! We can code while we eat hot wings!</p>
+      <a class="btn" href="mailto:jjr0020@auburn.edu">CONTACT ME</a>
+    </div>
+  </div>
 
-  <h3>Skills</h3>
-  <table>
-    <tbody>
-      <tr>
-        <td>
-          <table>
-            <tbody>
-              <tr>
-                <td>Java</td>
-                <td>⭐️⭐️⭐️⭐️⭐️</td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-        <td>
-          <table>
-            <tbody>
-              <tr>
-                <td>JavaScript</td>
-                <td>⭐️⭐️⭐️⭐️</td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <table>
-            <tbody>
-              <tr>
-                <td>C++</td>
-                <td>⭐️⭐️</td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-        <td>
-          <table>
-            <tbody>
-              <tr>
-                <td>React-Native</td>
-                <td>⭐️⭐️⭐️⭐️</td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <table>
-            <tbody>
-              <tr>
-                <td>HTML</td>
-                <td>⭐️⭐️⭐️⭐️⭐️</td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-        <td>
-          <table>
-            <tbody>
-              <tr>
-                <td>CSS</td>
-                <td>⭐️⭐️⭐️⭐️⭐️</td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
-  <h3><a href="Projects.html">Projects</a></h3>
-  <h3><a href="ContactMe.html">Contact Information</a></h3>
 
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/joshua-rambus-a34984162/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/josh_rambus">Twitter</a>
+  </div>
 </body>
 
 </html>
