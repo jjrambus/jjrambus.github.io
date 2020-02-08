@@ -107,7 +107,7 @@ a:hover {
 .computer-gif {
   width: 25%;
   float: left;
-  margin-right: 30px;
+  align-items: center;
 }
 
 .school-gif {
