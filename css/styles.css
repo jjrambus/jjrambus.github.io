@@ -29,9 +29,6 @@ p {
   line-height: 2;
 }
 
-.experience{
-  background-color: #E4F9F5;
-}
 #experience-gif{
   margin-left: 42%;
 }
@@ -62,10 +59,11 @@ a:hover {
 
 .middle-container {
   margin: 100px 0;
+  background-color: #E4F9F5;
+
 }
 
 .bottom-container {
-  background-color: #66BFBF;
   padding: 50px 0 20px;
 }
 
