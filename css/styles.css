@@ -59,15 +59,13 @@ a:hover {
 
 .middle-container {
   margin: 100px 0;
-
 }
-
 .experience{
-  margin: 20px 0 20px 0;
   background-color: #E4F9F5;
 }
 
 .bottom-container {
+  background-color: #66BFBF;
   padding: 50px 0 20px;
 }
 
@@ -110,9 +108,9 @@ a:hover {
 }
 
 .computer-gif {
-  width: 15%;
+  width: 25%;
   float: left;
-  align-items: center;
+  margin-right: 30px;
 }
 
 .school-gif {
