@@ -61,6 +61,10 @@ a:hover {
   margin: 100px 0;
   background-color: white;
 }
+.experience{
+  padding-left: 100px;
+  padding-right: 100px;
+}
 
 .bottom-container {
   background-color: #66BFBF;
